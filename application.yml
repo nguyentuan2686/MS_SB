@@ -1,0 +1,12 @@
+db:
+  connection: '{connect: ''http://s'', userName: ''foo''}'
+  port: '123'
+  host: 124.4.5
+
+greeting: Hello cloud config
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+

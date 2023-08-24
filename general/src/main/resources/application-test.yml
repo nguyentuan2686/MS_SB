@@ -1,0 +1,6 @@
+db:
+  connection: '{connect: ''http://s'', userName: ''foo''}'
+  port: '123'
+  host: 124.4.5
+
+greeting: HelloTEst

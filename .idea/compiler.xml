@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vn.cop.profile" />
+        <module name="spring-boot-config-server" />
+        <module name="vn.cop.general" />
+        <module name="spring-cloud-config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gerenal" target="11" />
+      <module name="spring-boo-config-server" target="11" />
+      <module name="spring-cloud-config" target="17" />
+      <module name="vn.cop.gerenal" target="17" />
+      <module name="vn.cop.gerenal (1)" target="17" />
+      <module name="vn.cop.gerenal (2)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gerenal" options="-parameters" />
+      <module name="spring-boo-config-server" options="-parameters" />
+      <module name="spring-boot-config-server" options="-parameters" />
+      <module name="vn.cop.general" options="-parameters" />
+      <module name="vn.cop.gerenal" options="-parameters" />
+      <module name="vn.cop.gerenal (1)" options="-parameters" />
+      <module name="vn.cop.gerenal (2)" options="-parameters" />
+      <module name="vn.cop.profile" options="-parameters" />
+    </option>
+  </component>
+</project>
